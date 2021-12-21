@@ -1,0 +1,144 @@
+html {
+    font: size 62.5%;
+
+}
+
+.title {
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.body {
+    background-color: #f5ee31;
+    width: 30rem;
+    height: 40rem;
+    border: 0.5rem solid black;
+    position: relative;
+    margin: 5rem auto;
+    /* si algo se sale de la caja no lo va a mostrar */
+    overflow: hidden;
+}
+
+.ojos {
+    /* border: 0.2rem solid rgb(182, 65, 81); */
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    width: 21rem;
+    height: 4rem;
+
+
+}
+
+.ojo {
+    background-color: #fff;
+    position: relative;
+    border: 0.5rem solid black;
+    width: 10rem;
+    height: 10rem;
+    margin-right: -1.7rem;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.ojo_externo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00aeef;
+    border: 0.3rem solid #000;
+    top: 2rem;
+    left: 2.5rem;
+}
+
+.ojo_interno {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+    background-color: #000;
+    border: 0.3rem solid #000;
+    top: 1rem;
+    left: 1rem;
+}
+
+.pestana {
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: #000;
+    display: inline-block;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}
+
+.pestanas {
+    position: relative;
+    bottom: 2rem;
+}
+
+.pestana.uno {
+
+    position: relative;
+    top: 0.855rem;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 1.5rem;
+}
+
+/* pestanas de la mitad */
+.pestana.dos {
+    position: relative;
+    left: 2.5rem;
+    top: 0.1rem;
+}
+
+.pestana.tres {
+
+    position: relative;
+    left: 3.6rem;
+    top: 0.9rem;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+
+.nariz {
+    width: 2rem;
+    height: 4rem;
+    background-color: #f5ee31;
+    position: absolute;
+    top: 11rem;
+    left: 13rem;
+    border: 0.5rem solid #000;
+    border-bottom: 0.5rem solid transparent;
+    border-radius: 42.5%;
+}
+
+.boca {
+    width: 22rem;
+    height: 9rem;
+    top: 12rem;
+    left: 3.3rem;
+    border-radius: 60%;
+    position: absolute;
+    /* aca creo un ovalo y luego pinto solo el borde de abajo */
+    background-color: transparent;
+    border-bottom: 0.7rem solid black;
+}
