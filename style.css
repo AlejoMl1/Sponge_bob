@@ -194,3 +194,30 @@ html {
     margin-right: 0.2rem;
     margin-left: 0.2rem;
 }
+
+.manchas {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(184, 147, 80);
+    border-radius: 50%;
+}
+
+.manchas.arriba {
+    margin-top: -4.2rem;
+}
+
+.manchas.abajo {
+    margin-top: 20.5rem;
+    margin-left: 2rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.pantalones {
+    width: 29rem;
+    height: 10rem;
+    border: 0.4rem solid black;
+    margin-top: 26rem;
+    border-left: transparent;
+    border-right: transparent;
+}
