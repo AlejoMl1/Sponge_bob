@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
 html {
     font: size 62.5%;
 
@@ -27,7 +34,7 @@ html {
 .ojos {
     /* border: 0.2rem solid rgb(182, 65, 81); */
     position: absolute;
-    left: 4rem;
+    left: 5rem;
     top: 4rem;
     width: 21rem;
     height: 4rem;
@@ -55,7 +62,7 @@ html {
     background-color: #00aeef;
     border: 0.3rem solid #000;
     top: 2rem;
-    left: 2.5rem;
+    left: 2.2rem;
 }
 
 .ojo_interno {
@@ -90,27 +97,27 @@ html {
 .pestana.uno {
 
     position: relative;
-    top: 0.855rem;
+    top: 0.9rem;
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    left: 1.5rem;
+    left: 1.2rem;
 }
 
 /* pestanas de la mitad */
 .pestana.dos {
     position: relative;
     left: 2.5rem;
-    top: 0.1rem;
+    top: 0.2rem;
 }
 
 .pestana.tres {
 
     position: relative;
     left: 3.6rem;
-    top: 0.9rem;
+    top: 1.2rem;
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
@@ -120,11 +127,11 @@ html {
 }
 
 .nariz {
-    width: 2rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 4.5rem;
     background-color: #f5ee31;
     position: absolute;
-    top: 11rem;
+    top: 10.6rem;
     left: 13rem;
     border: 0.5rem solid #000;
     border-bottom: 0.5rem solid transparent;
@@ -140,5 +147,25 @@ html {
     position: absolute;
     /* aca creo un ovalo y luego pinto solo el borde de abajo */
     background-color: transparent;
-    border-bottom: 0.7rem solid black;
+    border-bottom: 0.6rem solid black;
+}
+
+.dientes {
+    position: relative;
+    height: 4.3rem;
+    top: 8.9rem;
+    border: 0.1rem solid #000;
+    display: flex;
+    justify-content: center;
+}
+
+.diente {
+    height: 2.3rem;
+    width: 2.2rem;
+    background-color: white;
+    position: relative;
+    border: 0.35rem solid black;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+
 }
