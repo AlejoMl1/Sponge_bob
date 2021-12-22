@@ -34,7 +34,7 @@ html {
 .ojos {
     /* border: 0.2rem solid rgb(182, 65, 81); */
     position: absolute;
-    left: 5rem;
+    left: 5.4rem;
     top: 4rem;
     width: 21rem;
     height: 4rem;
@@ -62,7 +62,7 @@ html {
     background-color: #00aeef;
     border: 0.3rem solid #000;
     top: 2rem;
-    left: 2.2rem;
+    left: 2.3rem;
 }
 
 .ojo_interno {
@@ -132,7 +132,7 @@ html {
     background-color: #f5ee31;
     position: absolute;
     top: 10.6rem;
-    left: 13rem;
+    left: 13.2rem;
     border: 0.5rem solid #000;
     border-bottom: 0.5rem solid transparent;
     border-radius: 42.5%;
@@ -178,7 +178,7 @@ html {
 
 .dientes {
     position: relative;
-    height: 4.3rem;
+    height: 4.4rem;
     top: 20.7rem;
     /* border: 0.1rem solid #000; */
     display: flex;
@@ -187,7 +187,7 @@ html {
 
 .diente {
     height: 2.3rem;
-    width: 2.2rem;
+    width: 2.4rem;
     background-color: white;
     position: relative;
     border: 0.35rem solid black;
@@ -213,11 +213,88 @@ html {
     width: 4rem;
 }
 
-.pantalones {
-    width: 29rem;
-    height: 10rem;
+
+
+.camisa {
+    width: 100%;
+    height: 5rem;
     border: 0.4rem solid black;
     margin-top: 26rem;
     border-left: transparent;
     border-right: transparent;
+    border-bottom: transparent;
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: relative;
+
+}
+
+
+.cuello {
+    width: 5rem;
+    height: 3rem;
+    border: 0.4rem solid black;
+    position: absolute;
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin-top: -1.6rem;
+    /* -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg); */
+
+
+}
+
+.cuello.primero {
+    margin-left: 6rem;
+    transform: rotate(30deg);
+
+}
+
+.cuello.segundo {
+    margin-left: 18rem;
+    transform: rotate(-30deg);
+}
+
+
+.pantalon {
+    width: 100%;
+    height: 5rem;
+    border-top: 0.4rem solid black;
+    background-color: rgb(88, 54, 3);
+    display: flex;
+    gap: 2.9rem;
+    justify-content: center;
+}
+
+.cuello_corbata {
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: #f00200;
+    border: 0.4rem solid black;
+    position: absolute;
+    margin-left: 12.4rem;
+    bottom: 2.6rem;
+    transform: rotate(45deg);
+}
+
+.broches {
+
+    width: 3.7rem;
+    height: 1.6rem;
+    background-color: black;
+    border: 0.4 solid black;
+    margin-top: 1.7rem;
+}
+
+.corbata_baja {
+    width: 5.9rem;
+    height: 5.9rem;
+    transform: rotate(45deg);
+    background-color: #f00200;
+    border: 0.4rem solid black;
+    position: absolute;
+    left: 11.5rem;
+    bottom: 0rem;
 }
